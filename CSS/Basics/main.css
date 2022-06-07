@@ -1,0 +1,28 @@
+body {
+    font-family: sans;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+code {
+    font-family: inherit;
+    color: red;
+}
+
+.code-different code {
+    color: green;
+}
+
+
+ol li {
+    background-color:white;
+    color: black;
+}
+
+li ~ li {
+    background-color: black;
+    color: white;
+}
